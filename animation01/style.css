@@ -3,13 +3,106 @@
     width: 200px;
   }
   100% {
-    width: 1200px;
+    width: 1000px;
   }
 }
 
-.example {
+.example1 {
   animation-name: wide-scale;
   animation-duration: 6s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
   height: 100px;
   background-color: red;
+  margin-bottom: 5px;
+}
+
+.example2 {
+  animation-name: wide-scale;
+  animation-duration: 6s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 5px;
+}
+
+.example3 {
+  animation-name: wide-scale;
+  animation-duration: 6s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 5px;
+}
+
+.example4 {
+  animation-name: wide-scale;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 5px;
+}
+
+.example5 {
+  animation-name: wide-scale;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 5px;
+}
+
+.example6 {
+  animation-name: wide-scale;
+  animation-duration: 6s;
+  animation-timing-function: step-start;
+  animation-iteration-count: infinite;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 5px;
+}
+
+.example7 {
+  animation-name: wide-scale;
+  animation-duration: 6s;
+  animation-timing-function: step-end;
+  animation-iteration-count: infinite;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 5px;
+}
+
+.example8 {
+  animation-name: wide-scale;
+  animation-duration: 6s;
+  animation-timing-function: steps(4, start);
+  animation-iteration-count: infinite;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 5px;
+}
+
+.example9 {
+  animation-name: wide-scale;
+  animation-duration: 6s;
+  animation-timing-function: steps(4, end);
+  animation-iteration-count: infinite;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 5px;
+}
+
+.example10 {
+  animation-name: wide-scale;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 5px;
 }
